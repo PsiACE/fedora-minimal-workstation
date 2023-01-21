@@ -52,7 +52,7 @@ curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py 
 echo "Intalling Chezmoi"
 sh -c "$(curl -fsLS https://chezmoi.io/get)" -- -b $HOME/.local/bin
 # need enable later
-chezmoi init --apply https://github.com/psiace/dotfiles.git
+# chezmoi init --apply https://github.com/psiace/dotfiles.git
 
 # font setup
 if [[ -d ~/.local/share/fonts/ ]]
